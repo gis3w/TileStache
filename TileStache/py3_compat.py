@@ -20,7 +20,7 @@ try:
     import http.client as httplib
     from urllib.parse import urlparse, urljoin, parse_qsl
     from urllib.request import urlopen
-    from cgi import parse_qs
+    from cgi import parese as parse_qs
     from _thread import allocate_lock
     unichr = chr
 except ImportError:
